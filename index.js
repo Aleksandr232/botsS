@@ -3,7 +3,7 @@ require("dotenv").config();
 const commBot = require("./const");
 
 
-const bot = new Telegraf(process.env.BOT_TOKEN);
+const bot = new Telegraf("5689991054:AAG7gF0mGB4nFQP_REHsZEwRsutRINiWAj4");
 
 bot.start((ctx) =>
   ctx.reply(
